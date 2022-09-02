@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+
+<body>
+    {{>navbar}}
+    <div class="container">
+        <h1> Employee login Form</h1>
+        <div class="form login">
+            <form action="/login" method="post">
+            <label for="">Email</label>
+            <input type="email" name="email" id="" placeholder="Enter Your Email">
+             <label for="">Password:</label>
+            <input type="password" name="password" id="" value="" name="password" placeholder="Enter Your Password">
+            <input type="submit" value="Sign in" class="btn-submit">
+            <div class="help">
+                 <input type="checkbox" name="chack" id="" value=" ">Remember me
+                 <a href="#">Need help ?</a>
+                 </div>
+            </form>
+        </div>
+    <div class="ancor">
+        <a href="/register">Create on account</a>
+    </div>
+    </div>
+</body>
+
+</html>
